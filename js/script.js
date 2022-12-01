@@ -15,8 +15,8 @@ monogatari.action ('message').messages ({
 // Define the notifications used in the game
 monogatari.action ('notification').notifications ({
 	'Welcome': {
-		title: 'Welcome',
-		body: 'This is the Monogatari VN Engine',
+		title: 'Bem-vindo',
+		body: 'Este é um VN em JavaScript',
 		icon: ''
 	}
 });
