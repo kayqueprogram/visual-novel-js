@@ -44,7 +44,8 @@ monogatari.assets('gallery', {
 
 // Define the music used in the game.
 monogatari.assets('music', {
-	'routine': 'x-2.ogg'
+	'routine': 'x-2.ogg',
+	'confession': 'x-10.ogg'
 });
 
 // Define the voice files used in the game.
@@ -81,7 +82,11 @@ monogatari.characters({
 		directory: 'sayori',
 		sprites: {
 			Confused: 'confused.png',
-			Sad: 'sad.png'
+			Sad: 'sad.png',
+			Sad02: 'sad02.png',
+			Sad03: 'sad03.png',
+			Sad04: 'sad04.png',
+			Afraid: 'afraid.png'
 		}
 	},
 
@@ -96,7 +101,7 @@ monogatari.script({
 	// The game starts here.
 	'Start': [
 		'show scene house with fadeIn',
-		'play music routine with loop',
+		'play music confession with loop',
 		'show notification Welcome',
 		{
 			'Input': {
@@ -136,7 +141,7 @@ monogatari.script({
 		'No início, eu até esperava por ela, mas depois me cansei e comecei a ir sozinho',
 		'Mc Já faz tanto tempo né? Você está bem?',
 		's Eu estou, mas não sei você...',
-		'Sayori está me olhando de cima abaixo, talvez ela esteja pensando no porque de eu ter saído nessa chuva...',
+		'Sayori está me olhando de cima a baixo, talvez ela esteja pensando no porque de eu ter saído nessa chuva...',
 		'A verdade é que eu não tenho feito nada de útil nesses últimos anos',
 		'Minha vida se resume a: Acordar, ir a escola, comer, assistir anime e dormir',
 		'Mc Estou bem, não se preocupe. Fui na casa de um amigo e na hora de voltar, acabei pegando essa chuva',
@@ -147,7 +152,23 @@ monogatari.script({
 		's Não sei como explicar {{player.name}}... é como se alguém tivesse te ferido...',
 		'Ela não pode estar falando sério né ?',
 		'Ta de bricadeira...',
-		'E-ela... soube?'
+		'E-ela... soube?',
+		'Ah, mas é claro que soube. Rumores correm rápido',
+		'Mc Sayori... não precisa disfarçar... você soube, não é?',
+		'show character s Afraid',
+		's ...',
+		's B-bem.. mais ou menos...',
+		'Mc O que te disseram?',
+		's Que você foi rejeitado e humilhado na frente de todos da sua sala quando se declarou pra quem gostava',
+		'Mc Que cruel',
+		'Mc Pena que foi assim mesmo',
+		'show character s Sad02',
+		's S-sinto muito por você {{player.name}}...',
+		'Mc Tudo bem Sayori',
+		'Isso... Sayori, você ta chorando?...',
+		'Mc Não foi grande coisa no final das contas...',
+		'show character s Sad04',
+		's Foi sim!'
 	]
 });
 
