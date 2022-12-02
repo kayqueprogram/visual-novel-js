@@ -40,11 +40,7 @@
   },
   "scripts": {
     "serve": "yarn http-server . -o -p 3000",
-    "start": "yarn electron . --enable-logging",
-    "build": "yarn electron-builder -mwl",
-    "build:windows": "yarn electron-builder -w",
-    "build:mac": "yarn electron-builder -m",
-    "build:linux": "yarn electron-builder -l"
+    "start": "yarn electron . --enable-logging"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",

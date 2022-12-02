@@ -3,10 +3,10 @@
 // Define the messages used in the game.
 monogatari.component ('loading-screen').template (() => {
     return `
-<div>MODIFY THIS RETURN STRING</div>
+<div>Carregando o jogo...</div>
 <div data-content="wrapper"> 
 
-                <h2 data-string="Loading" data-content="title">Carregando o jogo...</h2>
+                <h2 data-string="Loading" data-content="title">Carregando...</h2>
                 <progress value="0" max="100" data-content="progress"></progress>
                 <small data-string="LoadingMessage" data-content="message">Aguarde enquanto os recursos são carregados.</small>
             </div>
