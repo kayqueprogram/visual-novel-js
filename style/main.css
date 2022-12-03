@@ -94,7 +94,7 @@ button:hover {}
 	}
 	to {
 		margin-left: auto;
-		margin-right: auto;
+		margin-right: 50vh;
 
 	}
 }
