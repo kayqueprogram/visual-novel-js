@@ -98,7 +98,8 @@ monogatari.characters({
 			Sad02: 'sad02.png',
 			Sad03: 'sad03.png',
 			Sad04: 'sad04.png',
-			Afraid: 'afraid.png'
+			Afraid: 'afraid.png',
+			CalmingDown: 'calming down.png'
 		}
 	},
 
@@ -172,7 +173,7 @@ monogatari.script({
 		's B-bem.. mais ou menos...',
 		'Mc O que te disseram?',
 		's Que você foi rejeitado e humilhado na frente de todos da sua sala quando se declarou pra quem gostava',
-		'Mc Que cruel',
+		'Mc Que cruel...',
 		'Mc Pena que foi assim mesmo',
 		'show character s Sad02',
 		's S-sinto muito por você {{player.name}}...',
@@ -180,7 +181,17 @@ monogatari.script({
 		'Isso... Sayori, você ta chorando?...',
 		'Mc Não foi grande coisa no final das contas...',
 		'show character s Sad04',
-		's Foi sim!'
+		's Foi sim!',
+		'Mc Calma Sayori, está tudo bem, sério...',
+		'show character s Sad03',
+		'Me aproximo dela e a abraço. Sayori sempre foi assim tão emotiva? Não, acho que não, é diferente desta vez...',
+		'Ela se importa tanto assim comigo? Bem... acho que nunca percebi isso..',
+		'Talvez porque realmente eu nunca prestei muita atenção nela, embora ela fosse minha melhor amiga',
+		'Mc Hey Sayori... está tudo bem, aquilo já passou. ',
+		'Mc Nem me importo mais com isso, se quer saber',
+		'show character s CalmingDown',
+		'Me afasto um pouco e sorrio gentilmente para ela',
+		'Aos poucos, Sayori se acalma e percebe o que estava fazendo'
 	]
 });
 
