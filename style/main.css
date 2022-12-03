@@ -78,6 +78,10 @@ button:hover {}
  * ===========================
 **/
 
+.biggercharachter {
+	min-height: 90vh;
+}
+
 /* Choice Buttons style */
 [data-component="choice-container"] button {}
 

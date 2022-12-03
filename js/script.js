@@ -1,8 +1,8 @@
 /* global monogatari */
 
 // Define the messages used in the game.
-monogatari.component ('loading-screen').template (() => {
-    return `
+monogatari.component('loading-screen').template(() => {
+	return `
 <div>Carregando o jogo...</div>
 <div data-content="wrapper"> 
 
@@ -11,7 +11,7 @@ monogatari.component ('loading-screen').template (() => {
                 <small data-string="LoadingMessage" data-content="message">Aguarde enquanto os recursos são carregados.</small>
             </div>
    `;
-}); 
+});
 
 monogatari.action('message').messages({
 	'Help': {
@@ -145,7 +145,7 @@ monogatari.script({
 		'Sinceramente... onde é que vou parar?',
 		'"Na rua". Me diz um pensamento vago e duvidoso.',
 		's {{player.name}} ?',
-		'show character s Confused',
+		'show character s Confused biggercharachter',
 		's É você?',
 		'Mc Sa-Sayori?...',
 		'Esta é Sayori, minha amiga de infância, costumávamos ir juntos para a escola todos os dias',
@@ -158,7 +158,7 @@ monogatari.script({
 		'A verdade é que eu não tenho feito nada de útil nesses últimos anos',
 		'Minha vida se resume a: Acordar, ir a escola, comer, assistir anime e dormir',
 		'Mc Estou bem, não se preocupe. Fui na casa de um amigo e na hora de voltar, acabei pegando essa chuva',
-		'show character s Sad',
+		'show character s Sad biggercharachter',
 		's É que você parece meio abatido {{player.name}}...',
 		'Abatido? o que ela quis dizer com isso?',
 		'Mc Abatido? Como assim Sayori?',
@@ -168,14 +168,14 @@ monogatari.script({
 		'E-ela... soube?',
 		'Ah, mas é claro que soube. Rumores correm rápido',
 		'Mc Sayori... não precisa disfarçar... você soube, não é?',
-		'show character s Afraid',
+		'show character s Afraid biggercharachter',
 		's ...',
 		's B-bem.. mais ou menos...',
 		'Mc O que te disseram?',
 		's Que você foi rejeitado e humilhado na frente de todos da sua sala quando se declarou pra quem gostava',
 		'Mc Que cruel...',
 		'Mc Pena que foi assim mesmo',
-		'show character s Sad02',
+		'show character s Sad02 biggercharachter',
 		's S-sinto muito por você {{player.name}}...',
 		'Mc Tudo bem Sayori',
 		'Isso... Sayori, você ta chorando?...',
@@ -189,7 +189,7 @@ monogatari.script({
 		'Talvez porque realmente eu nunca prestei muita atenção nela, embora ela fosse minha melhor amiga',
 		'Mc Hey Sayori... está tudo bem, aquilo já passou. ',
 		'Mc Nem me importo mais com isso, se quer saber',
-		'show character s CalmingDown',
+		'show character s CalmingDown biggercharachter',
 		'Me afasto um pouco e sorrio gentilmente para ela',
 		'Aos poucos, Sayori se acalma e percebe o que estava fazendo'
 	]
