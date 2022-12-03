@@ -145,7 +145,7 @@ monogatari.script({
 		'Sinceramente... onde é que vou parar?',
 		'"Na rua". Me diz um pensamento vago e duvidoso.',
 		's {{player.name}} ?',
-		'show character s Confused biggercharachter',
+		'show character s Confused biggercharachter Slidein',
 		's É você?',
 		'Mc Sa-Sayori?...',
 		'Esta é Sayori, minha amiga de infância, costumávamos ir juntos para a escola todos os dias',

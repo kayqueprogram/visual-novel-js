@@ -78,8 +78,24 @@ button:hover {}
  * ===========================
 **/
 
+.Slidein {
+	animation-duration: 5s;
+	animation-name: SlideIn;
+}
+
 .biggercharachter {
 	min-height: 90vh;
+}
+
+@keyframes SlideIn {
+	from {
+		margin-left: 100%;
+
+	}
+	to {
+		margin-left: 0%;
+
+	}
 }
 
 /* Choice Buttons style */
