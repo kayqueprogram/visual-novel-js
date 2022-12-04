@@ -98,14 +98,16 @@ monogatari.characters({
 			Sad02: 'sad02.png',
 			Sad03: 'sad03.png',
 			Sad04: 'sad04.png',
+			Saddened: 'saddened.png',
 			Afraid: 'afraid.png',
-			CalmingDown: 'calming down.png'
+			CalmingDown: 'calming down.png',
+			Scared: 'scared.png'
 		}
 	},
 
 	'Mc': {
 		name: '{{player.name}}',
-		color: '#00bff'
+		color: '#AB642E'
 	}
 });
 
@@ -180,10 +182,10 @@ monogatari.script({
 		'Mc Tudo bem Sayori',
 		'Isso... Sayori, você ta chorando?...',
 		'Mc Não foi grande coisa no final das contas...',
-		'show character s Sad04',
+		'show character s Sad04 biggercharachter',
 		's Foi sim!',
 		'Mc Calma Sayori, está tudo bem, sério...',
-		'show character s Sad03',
+		'show character s Sad03 biggercharachter',
 		'Me aproximo dela e a abraço. Sayori sempre foi assim tão emotiva? Não, acho que não, é diferente desta vez...',
 		'Ela se importa tanto assim comigo? Bem... acho que nunca percebi isso..',
 		'Talvez porque realmente eu nunca prestei muita atenção nela, embora ela fosse minha melhor amiga',
@@ -191,7 +193,15 @@ monogatari.script({
 		'Mc Nem me importo mais com isso, se quer saber',
 		'show character s CalmingDown biggercharachter',
 		'Me afasto um pouco e sorrio gentilmente para ela',
-		'Aos poucos, Sayori se acalma e percebe o que estava fazendo'
+		'Aos poucos, Sayori se acalma e percebe o que estava fazendo',
+		'show character s Scared biggercharachter',
+		's M-me desculpa {{player.name}} ! E-eu não deveria ter feito isso...',
+		'Mc Tudo bem Sayori... só... podemos falar sobre isso amanhã?',
+		'show character s Afraid biggercharachter',
+		's P-por mim, tudo bem... eu acho',
+		'Mc Então... até amanhã, Sayori...',
+		'show character s Saddened biggercharachter',
+		's A-até...'
 	]
 });
 
